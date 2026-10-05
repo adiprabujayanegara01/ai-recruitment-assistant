@@ -1,0 +1,26 @@
+Budi Santoso
+Yogyakarta
+budi.santoso@example.com
+
+Jenis Kelamin: Laki-laki
+Agama: Islam
+Status: Menikah
+Tanggal Lahir: 12 Mei 1998
+
+Ringkasan
+Lulusan baru Teknik Informatika yang tertarik pada data dan machine learning.
+
+Pendidikan
+Universitas Negeri Yogyakarta
+S1 Ilmu Komputer (2016 - 2020)
+
+Pengalaman
+Data Analyst Intern | PT Analitika Nusantara | Jul 2020 - Des 2020
+- Membuat dashboard penjualan dengan Tableau dan menulis query SQL untuk analisis data mingguan.
+- Membersihkan data memakai Python dan Pandas.
+
+Keahlian
+Python, SQL, Pandas, Excel, Tableau, Statistik
+
+Proyek
+Prediksi Harga Rumah - Model regresi dengan scikit-learn dan Pandas, evaluasi memakai cross validation.

@@ -1,0 +1,20 @@
+{
+  "_note": "Anotasi manual dari membaca CV/JD sample. Set kecil (5 CV x 3 JD) untuk regresi & sanity check, BUKAN benchmark. Perluas dengan data nyata yang sudah dianonimkan sebelum mengambil kesimpulan.",
+  "cvs": {
+    "adi_prabu": {"name": "Adi Prabu", "email": "adi.prabu@example.com", "education_level": 3, "experience_entries": 2, "total_years": 5.3,
+      "skills": ["Python","SQL","JavaScript","Machine Learning","Deep Learning","TensorFlow","Computer Vision","CNN","OpenCV","Git","Linux","FastAPI","Flask","REST API","Scikit-learn","Pandas","Time Series"]},
+    "sari_wulandari": {"name": "Sari Wulandari", "email": "sari.wulandari@example.com", "education_level": 3, "experience_entries": 2, "total_years": 9.2,
+      "skills": ["Python","Django","FastAPI","PostgreSQL","MySQL","Redis","Docker","Kubernetes","Git","Linux","REST API","Microservices","CI/CD","Pytest","AWS"]},
+    "budi_santoso": {"name": "Budi Santoso", "email": "budi.santoso@example.com", "education_level": 3, "experience_entries": 1, "total_years": 0.5,
+      "skills": ["Python","SQL","Pandas","Data Visualization","Statistics","Data Analysis","Scikit-learn","Machine Learning"]},
+    "dewi_lestari": {"name": "Dewi Lestari", "email": "dewi.lestari@example.com", "education_level": 4, "experience_entries": 2, "total_years": 8.8,
+      "skills": ["Python","PyTorch","Hugging Face","LangChain","NLP","LLM","RAG","PostgreSQL","Docker","AWS","FastAPI","spaCy","Transformers","Vector Database","Scikit-learn","Machine Learning"]},
+    "rendra_pratama": {"name": "Rendra Pratama", "email": "rendra.pratama@example.com", "education_level": 3, "experience_entries": 1, "total_years": 5.0,
+      "skills": ["Communication"]}
+  },
+  "jobs": {
+    "ai_engineer":      {"title": "AI Engineer",      "relevance": {"dewi_lestari": 2, "adi_prabu": 2, "sari_wulandari": 1, "budi_santoso": 1, "rendra_pratama": 0}},
+    "backend_engineer": {"title": "Backend Engineer", "relevance": {"sari_wulandari": 2, "dewi_lestari": 1, "adi_prabu": 1, "budi_santoso": 0, "rendra_pratama": 0}},
+    "data_analyst":     {"title": "Data Analyst",     "relevance": {"budi_santoso": 2, "adi_prabu": 1, "dewi_lestari": 1, "sari_wulandari": 0, "rendra_pratama": 0}}
+  }
+}

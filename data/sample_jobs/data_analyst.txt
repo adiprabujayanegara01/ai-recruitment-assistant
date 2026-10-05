@@ -1,0 +1,16 @@
+Data Analyst
+
+Responsibilities
+- Analyze business data and build dashboards for stakeholders.
+- Write SQL queries and clean datasets with Python.
+- Present findings and recommendations to non-technical teams.
+
+Requirements
+- Bachelor's degree in Statistics, Computer Science, or Mathematics.
+- 1+ years of experience in data analysis.
+- Proficiency in SQL and Python (Pandas).
+- Experience with Tableau or Power BI.
+- Strong communication skills.
+
+Nice to have
+- Knowledge of machine learning.

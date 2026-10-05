@@ -1,0 +1,29 @@
+Sari Wulandari
+Bandung
+sari.wulandari@example.com | 0813 5566 7788
+
+Profil
+Backend engineer dengan fokus pada layanan API, basis data, dan otomasi deployment.
+
+Pengalaman Kerja
+Backend Engineer - PT Kreasi Digital Indonesia (Mar 2019 - Sekarang)
+- Membangun REST API dengan FastAPI dan Django untuk platform e-commerce dengan jutaan request per hari.
+- Merancang skema PostgreSQL dan mengoptimalkan query sehingga latensi turun 40%.
+- Mengelola CI/CD dengan GitHub Actions dan mengemas layanan memakai Docker serta Kubernetes.
+- Menulis unit testing dengan pytest untuk seluruh service inti.
+
+Junior Developer - PT Solusi Kode Bersama (Agu 2017 - Feb 2019)
+- Mengembangkan modul backend memakai Django dan MySQL.
+
+Pendidikan
+Institut Teknologi Bandung
+S1 Teknik Informatika (2013 - 2017)
+
+Keahlian
+Python, Django, FastAPI, PostgreSQL, MySQL, Redis, Docker, Kubernetes, Git, Linux, REST API, Microservices
+
+Sertifikasi
+AWS Certified Developer Associate - Amazon Web Services (2021)
+
+Proyek
+Platform Notifikasi Real-time - Layanan microservices dengan Redis dan Docker untuk mengirim notifikasi ke jutaan pengguna.

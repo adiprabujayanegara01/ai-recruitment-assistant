@@ -1,0 +1,48 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16        # PostgreSQL + ekstensi pgvector
+    environment:
+      POSTGRES_USER: recruit
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD must be set}
+      POSTGRES_DB: recruitment
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./docker/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U recruit -d recruitment"]
+      interval: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: ./backend
+      args:
+        INSTALL_ST: ${INSTALL_ST:-0}
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+psycopg://recruit:${POSTGRES_PASSWORD:?POSTGRES_PASSWORD must be set}@postgres:5432/recruitment
+      UPLOAD_DIR: /app/data/uploads
+    volumes:
+      - uploads:/app/data/uploads
+      - hfcache:/home/appuser/.cache
+    depends_on:
+      postgres: { condition: service_healthy }
+    ports: ["8000:8000"]
+
+  frontend:
+    build: ./frontend
+    depends_on: [backend]
+    ports: ["3000:80"]
+
+  # Opsional: LLM open-source lokal. Jalankan:  docker compose --profile local-llm up
+  # lalu set LLM_PROVIDER=openai_compatible, LLM_BASE_URL=http://ollama:11434/v1, LLM_MODEL=<nama model>
+  ollama:
+    image: ollama/ollama
+    profiles: ["local-llm"]
+    volumes: [ollama:/root/.ollama]
+
+volumes:
+  pgdata:
+  uploads:
+  hfcache:
+  ollama:

@@ -1,0 +1,21 @@
+AI Engineer
+
+About the role
+We are building an AI-powered recruitment platform and are looking for an AI Engineer to own model development and serving.
+
+Responsibilities
+- Build and evaluate machine learning and deep learning models for text and image data.
+- Develop REST APIs that serve models to web and mobile applications.
+- Deploy and monitor models in production using Docker.
+- Work with PostgreSQL and vector databases to support semantic search.
+
+Requirements
+- Bachelor's degree in Informatics, Computer Science, or a related field.
+- 2+ years of experience building machine learning applications.
+- Strong Python skills and hands-on experience with TensorFlow or PyTorch.
+- Experience with FastAPI, Docker, and PostgreSQL.
+- Familiarity with NLP.
+
+Nice to have
+- Experience with LLM applications and RAG.
+- Kubernetes or AWS experience.

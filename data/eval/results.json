@@ -1,0 +1,80 @@
+[
+  {
+    "versions": {
+      "embedding": "hashing-v1",
+      "matching_engine": "matching-engine-v2",
+      "prompt": "prompt-v2"
+    },
+    "n_cvs": 5,
+    "n_jobs": 3,
+    "extraction": {
+      "skills_precision": 1.0,
+      "skills_recall": 1.0,
+      "skills_f1": 1.0,
+      "name_accuracy": 1.0,
+      "email_accuracy": 1.0,
+      "education_level_accuracy": 1.0,
+      "experience_entries_accuracy": 1.0,
+      "total_years_mae": 0.0,
+      "skill_errors": {}
+    },
+    "ranking": {
+      "ai_engineer": {
+        "ranked": [
+          "dewi_lestari (75.5)",
+          "adi_prabu (65.5)",
+          "sari_wulandari (59.6)",
+          "budi_santoso (33.0)",
+          "rendra_pratama (7.5)"
+        ],
+        "P@1": 1.0,
+        "P@2": 1.0,
+        "recall@2": 1.0,
+        "NDCG@5": 1.0
+      },
+      "backend_engineer": {
+        "ranked": [
+          "sari_wulandari (81.8)",
+          "adi_prabu (56.5)",
+          "dewi_lestari (54.7)",
+          "budi_santoso (24.2)",
+          "rendra_pratama (7.5)"
+        ],
+        "P@1": 1.0,
+        "P@2": 0.5,
+        "recall@2": 1.0,
+        "NDCG@5": 1.0
+      },
+      "data_analyst": {
+        "ranked": [
+          "budi_santoso (59.7)",
+          "adi_prabu (55.4)",
+          "dewi_lestari (40.7)",
+          "sari_wulandari (22.2)",
+          "rendra_pratama (12.0)"
+        ],
+        "P@1": 1.0,
+        "P@2": 0.5,
+        "recall@2": 1.0,
+        "NDCG@5": 1.0
+      }
+    },
+    "mean_ranking": {
+      "P@1": 1.0,
+      "P@2": 0.667,
+      "recall@2": 1.0,
+      "NDCG@5": 1.0
+    },
+    "groundedness": {
+      "evidence_verbatim_rate": 1.0,
+      "evidence_items": 81
+    },
+    "fairness": {
+      "max_score_delta_under_sensitive_attribute_swap": 0.0
+    },
+    "latency_ms": {
+      "mean_per_match": 13.2,
+      "p95": 20.1
+    }
+  }
+]

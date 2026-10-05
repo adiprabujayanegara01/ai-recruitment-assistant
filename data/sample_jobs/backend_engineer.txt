@@ -1,0 +1,16 @@
+Backend Engineer
+
+Tanggung jawab
+- Merancang dan mengembangkan REST API yang andal dan skalabel.
+- Mengelola basis data PostgreSQL dan mengoptimalkan performa query.
+- Mengotomasi deployment dengan CI/CD dan container.
+
+Kualifikasi
+- Minimal S1 Teknik Informatika atau bidang terkait.
+- Pengalaman minimal 3 tahun sebagai backend developer.
+- Menguasai Python dengan FastAPI atau Django.
+- Berpengalaman dengan PostgreSQL, Docker, dan Git.
+
+Nilai plus
+- Pengalaman dengan Kubernetes dan microservices.
+- Sertifikasi cloud (AWS/GCP).
